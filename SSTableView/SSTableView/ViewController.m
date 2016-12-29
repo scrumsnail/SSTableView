@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "SSCommonTableData.h"
 #import "SSCommonTableDelegate.h"
-
+#import "SSColorButtonCell.h"
 typedef enum{
     Male,
     Female,
@@ -147,6 +147,17 @@ typedef enum{
                                       },
                                   ],
                           },
+                      @{
+                          RowContent :@[
+                                  @{
+                                      Title        : @"退出登录",
+                                      CellClass    : @"SSColorButtonCell",
+                                      CellAction   : @"logout:",
+                                      ForbidSelect : @(YES),
+                                      ExtraInfo    : @(ColorButtonCellStyleRed)
+                                      },
+                                  ],
+                          }
 
                       ];
     self.data = [SSCommonTableSection sectionsWithData:data];
@@ -189,6 +200,11 @@ typedef enum{
     self.selectedGender = Other;
     [self refreshData];
 }
+
+- (void)logout:(id)sender{
+    NSLog(@"%s",__func__);
+}
+
 - (void)refreshData{
     [self buildData];
     [self.tableView reloadData];

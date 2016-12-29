@@ -26,6 +26,8 @@
     if (self) {
         CGFloat avatarWidth = 55.f;
         _avatar = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, avatarWidth, avatarWidth)];
+        _avatar.layer.cornerRadius = avatarWidth / 2;
+        _avatar.layer.masksToBounds = YES;
         [self addSubview:_avatar];
         _nameLabel      = [[UILabel alloc] initWithFrame:CGRectZero];
         _nameLabel.font = [UIFont systemFontOfSize:18.f];

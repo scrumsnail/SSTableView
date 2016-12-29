@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871420AF1E14E232002BA38F /* SSColorButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 871420AE1E14E232002BA38F /* SSColorButtonCell.m */; };
 		877E2B721E08D7F900F75BCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E2B711E08D7F900F75BCD /* main.m */; };
 		877E2B751E08D7F900F75BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E2B741E08D7F900F75BCD /* AppDelegate.m */; };
 		877E2B781E08D7F900F75BCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E2B771E08D7F900F75BCD /* ViewController.m */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		871420AD1E14E232002BA38F /* SSColorButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSColorButtonCell.h; sourceTree = "<group>"; };
+		871420AE1E14E232002BA38F /* SSColorButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSColorButtonCell.m; sourceTree = "<group>"; };
 		877E2B6D1E08D7F900F75BCD /* SSTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		877E2B711E08D7F900F75BCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		877E2B731E08D7F900F75BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				877E2BA21E08FB4100F75BCD /* SSTextSettingCell.m */,
 				877E2BA61E090DCC00F75BCD /* SSNoDisturbTimeCell.h */,
 				877E2BA71E090DCC00F75BCD /* SSNoDisturbTimeCell.m */,
+				871420AD1E14E232002BA38F /* SSColorButtonCell.h */,
+				871420AE1E14E232002BA38F /* SSColorButtonCell.m */,
 			);
 			path = objc;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				877E2B8A1E08D89A00F75BCD /* SSCommonTableDelegate.m in Sources */,
+				871420AF1E14E232002BA38F /* SSColorButtonCell.m in Sources */,
 				877E2B8D1E08D95A00F75BCD /* UIView+SS.m in Sources */,
 				877E2B781E08D7F900F75BCD /* ViewController.m in Sources */,
 				877E2BA81E090DCC00F75BCD /* SSNoDisturbTimeCell.m in Sources */,
@@ -374,6 +380,7 @@
 				877E2B861E08D7F900F75BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
